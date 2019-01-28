@@ -14,4 +14,6 @@ this is usually where you describe your code and document what it is supposed to
 
 ---
 
-making a minor chane to demonstrate commits.
+making a minor change to demonstrate commits.
+
+fixed a grammatical error.
