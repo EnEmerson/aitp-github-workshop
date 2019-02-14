@@ -57,14 +57,17 @@ Download the version of git for your machine, open the wizard and select all of 
 ## Basic commands
 
 * git clone - get a repository for the first time onto your local machine
+
 	Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + C"
 
 * git pull - grab the latest version of the project from the remote repo
 
 * git add - adding your recent changes to your local git object
+
 	Directories: "name/file", the period "." can be used to indicate all files in a directory.
 
 * git commit - committing the changes you made to be pushed to the remote repo
+
 	Etiquette: Commits should be in first person imperative tense, all lowercase.
 
 * git push - pushing the changes from your local machine to the remote repo
@@ -85,7 +88,7 @@ Download the version of git for your machine, open the wizard and select all of 
 
 ![merge-conflicts-meme](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/merge-conflicts-meme.jpg)
 
-If you follow good practice, you should never have any merge conflicts.
+If you follow good practice, you *should* never have any merge conflicts.
 
 ---
 
@@ -98,6 +101,8 @@ Markdown is shorthand for HTML, it is essentially and easy to read and write ver
 It can do very cool things like you've already seen on this readme page so far, it can be used to:
 
 # make text into headers,
+
+# make text into headers
 
 **bold,** *italicize,* ~~strike-through,~~ 
 
@@ -121,8 +126,10 @@ embed images,
 
 ![github-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/github-logo.png)
 
-[and embed links](https://github.com/)
+[and embed links.](https://github.com/) <- this goes to https://github.com
 
 These are just a few examples and I highly recommend looking into the full documentation to read up fully on how markdown works. Good documentation of a project can make it seem like you know what you're doing.
 
 ![bobcat-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/bobcat-logo.png)
+
+### Eat em up cats!
