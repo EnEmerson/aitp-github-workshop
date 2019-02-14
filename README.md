@@ -102,8 +102,6 @@ It can do very cool things like you've already seen on this readme page so far, 
 
 # make text into headers,
 
-# make text into headers
-
 **bold,** *italicize,* ~~strike-through,~~ 
 
 create tables,
