@@ -14,7 +14,11 @@ Github/Markdown presentation
 
 * [Create your first repo](https://github.com/EnEmerson/aitp-github-workshop#create-a-repo)
 
+* [Setting up git bash for the first time](https://github.com/EnEmerson/aitp-github-workshop#setting-up-bash)
+
 * [Go over basic git commands](https://github.com/EnEmerson/aitp-github-workshop#basic-commands)
+
+* [Making your first commit](https://github.com/EnEmerson/aitp-github-workshop#making-commits)
 
 * [Talk about more advanced git commands and concepts](https://github.com/EnEmerson/aitp-github-workshop#advanced-concepts)
 
@@ -40,6 +44,8 @@ Download the version of git for your machine, open the wizard and select all of 
 
 ## Create a repo
 
+Begin by creating an account with github here:  https://github.com/
+
 1. Go to your profile and select the "repositories" tab
 
 2. Select big green "new" button on the right
@@ -54,11 +60,29 @@ Download the version of git for your machine, open the wizard and select all of 
 
 ---
 
+## Setting up Bash
+
+Since this if your first time using Bash, the console will ask you for security information before it lets you make any pushes to a remote repo, so we need to enter a couple commands to tell the console who you are! For both of these, you will **use the email and username you used for your github account**, simply type in the first command and hit enter before typing in the next one. This is what they look like:
+
+```
+git config --global user.email "yourEmail@whatever.com"
+```
+
+### and
+
+```
+git config --global user.name "githubName"
+```
+
+---
+
 ## Basic commands
+
+### read what each of these does before continuing
 
 * git clone - get a repository for the first time onto your local machine
 
-	Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + C"
+	Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"
 
 * git pull - grab the latest version of the project from the remote repo
 
@@ -73,6 +97,12 @@ Download the version of git for your machine, open the wizard and select all of 
 * git push - pushing the changes from your local machine to the remote repo
 
 * git status - returns useful information about your current stage
+
+---
+
+## Making commits
+
+
 
 ---
 
