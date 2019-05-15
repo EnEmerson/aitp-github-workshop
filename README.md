@@ -16,8 +16,6 @@ My Git/Github/Markdown presentation for beginners.
 
 * [How to set up Git Bash for the first time](https://github.com/EnEmerson/aitp-github-workshop#setting-up-bash)
 
-* [Let's go over some basic Git commands](https://github.com/EnEmerson/aitp-github-workshop#basic-commands)
-
 * [Making your first commit!](https://github.com/EnEmerson/aitp-github-workshop#making-commits)
 
 * [Introduce some advanced concepts](https://github.com/EnEmerson/aitp-github-workshop#advanced-concepts)
@@ -74,59 +72,85 @@ Congratulations! You've just created your first Git repo!
 
 ## Setting up Bash
 
-Since this if your first time using Bash, the console will ask you for security information before it lets you make any pushes to a remote repo, so we need to enter a couple commands to tell the console who you are! For both of these, you will **use the email and username you used for your github account**, simply type in the first command and hit enter before typing in the next one. This is what they look like:
+Due to this being your first time using the Bash console, 
+it will ask you for security information (SSH stuff) before it lets you make any changes to repositories.
+First, we must enter a couple of commands to tell the console who we are! 
+For each of these, you will **use the email and username you used to create your GitHub account**, 
+simply type in the first command and hit enter before typing in the next one. This is what they look like:
 
 ```Git
 git config --global user.email "yourEmail@whatever.com"
 ```
 
-### and
+**
+and
+**
 
 ```Git
-git config --global user.name "githubName"
+git config --global user.name "GitHubName"
 ```
 
----
+***
+What does this stuff do?
+***
 
-## Basic commands
-
-### read what each of these does before continuing
-
-* git clone - get a repository for the first time onto your local machine
-
-	Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"
-
-* git pull - grab the latest version of the project from the remote repo
-
-* git add - adding your recent changes to your local git object
-
-	Directories: "name/file", the period "." can be used to indicate all files in a directory.
-
-* git commit - committing the changes you made to be pushed to the remote repo
-
-	Etiquette: Commits should be in first person imperative tense, all lowercase.
-
-* git push - pushing the changes from your local machine to the remote repo
-
-* git status - returns useful information about your current stage
+Git is a version management language, it has pre\-defined keywords like most other scripting\/programming languages.
+The keyword ```git``` will precede almost *EVERY* command you make in the console. In this case, we are telling Git
+to edit the configuration (```config```) files for our repository on a machine\-wide scale (```--global```). We are
+then setting the ```user.name``` and ```user.email``` attributes to our own so the magical SSH stuff knows who we are.
+When you make your first ```git push```, you will be asked to enter your credentials (username and password), you will 
+only have to do this once, as Bash will remember who you are forever until you change the config files or uninstall it.
 
 ---
 
 ## Making commits
 
+* Grabs a repo for the first time and clones it onto your local machine:
+	```git clone [repository link]```
+	*Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"*
+
+* Grabs the latest version of the project from the repo
+	```git pull```
+
+* Adding your recent changes to your "Staging Area"
+	```git add [file or directory]```
+	*Tip: The '.' character means "everything," use this to add a bunch of changes at once.*
+
+* Commit the changes you made with a message
+	```git commit -m "put message text here"```
+	**Etiquette: Commit messages should be in first person, imperative tense, all lowercase, and as specific as possible.**
+	Example: "add new function for finding outlier data" instead of "i added a new function"
+
+* Push the changes from your local machine to the remote repo
+	```git push```
+---
+
+## Other helpful things
+
+* .gitignore - a file that allows you to hide specific files or directories from your git repo
+* How to show at what part of the staging process you're currently at:
+	```git status```
+* README - a file that is an easy to read "pre-HTML," usually used to document your projects.
+	The ".md" extension means "Markdown" which is a scripting language we will cover briefly in a bit.
+	Many sites support Markdown formatting, such as Reddit and GitHub. The Markdown gets converted into
+	HTML and displayed onto the page below where your project files are located.
 
 
 ---
 
 ## Advanced concepts
 
-### Probably don't use these yet unless you are very comfortable using git, familiar with the Vim console, and are ok with searching around online for long periods of time looking for solutions to very tedious problems:
+***This is a very scary section, don't do these unless you're VERY familiar with Git.***
 
-* git merge - combining multiple versions of your project
+* Combining multiple versions of your project
+	```
+	git merge [branch]
+	```
 
-* git rm - removes files from your repository
-
-* .gitignore - a file that allows you to hide specific files or directories from your git repo
+* Removes files from your repository
+	```
+	git rm -r [file name]
+	```
 
 ![merge-conflicts-meme](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/merge-conflicts-meme.jpg)
 
