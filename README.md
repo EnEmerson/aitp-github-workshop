@@ -1,6 +1,6 @@
 # aitp-github-workshop
 
-Github/Markdown presentation
+My Git/Github/Markdown presentation for beginners.
 
 ![bobcat-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/txst-aitp-logo.png)
 
@@ -8,21 +8,21 @@ Github/Markdown presentation
 
 ## Timeline:
 
-* [Install Git Bash](https://github.com/EnEmerson/aitp-github-workshop#installation)
+* [How to Install Git](https://github.com/EnEmerson/aitp-github-workshop#installation)
 
-* [Explain mechanics of git version control](https://github.com/EnEmerson/aitp-github-workshop#how-it-works)
+* [How does Git work?](https://github.com/EnEmerson/aitp-github-workshop#how-it-works)
 
-* [Create your first repo](https://github.com/EnEmerson/aitp-github-workshop#create-a-repo)
+* [Let's create a Repository!](https://github.com/EnEmerson/aitp-github-workshop#create-a-repo)
 
-* [Setting up git bash for the first time](https://github.com/EnEmerson/aitp-github-workshop#setting-up-bash)
+* [How to set up Git Bash for the first time](https://github.com/EnEmerson/aitp-github-workshop#setting-up-bash)
 
-* [Go over basic git commands](https://github.com/EnEmerson/aitp-github-workshop#basic-commands)
+* [Let's go over some basic Git commands](https://github.com/EnEmerson/aitp-github-workshop#basic-commands)
 
-* [Making your first commit](https://github.com/EnEmerson/aitp-github-workshop#making-commits)
+* [Making your first commit!](https://github.com/EnEmerson/aitp-github-workshop#making-commits)
 
-* [Talk about more advanced git commands and concepts](https://github.com/EnEmerson/aitp-github-workshop#advanced-concepts)
+* [Introduce some advanced concepts](https://github.com/EnEmerson/aitp-github-workshop#advanced-concepts)
 
-* [Messing with markdown script](https://github.com/EnEmerson/aitp-github-workshop#markdown)
+* [Fun with Markdown!](https://github.com/EnEmerson/aitp-github-workshop#markdown)
 
 ---
 
