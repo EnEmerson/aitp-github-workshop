@@ -105,7 +105,7 @@ only have to do this once, as Bash will remember who you are forever until you c
 
 ## Making commits
 
-* Grabs a repo for the first time and clones it onto your local machine:
+* Grabs a repo for the **first time** and clones it onto your local machine:
 	```git clone [repository link]```
 	*Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"*
 
@@ -135,7 +135,6 @@ only have to do this once, as Bash will remember who you are forever until you c
 	Many sites support Markdown formatting, such as Reddit and GitHub. The Markdown gets converted into
 	HTML and displayed onto the page below where your project files are located.
 
-
 ---
 
 ## Advanced concepts
@@ -143,18 +142,17 @@ only have to do this once, as Bash will remember who you are forever until you c
 ***This is a very scary section, don't do these unless you're VERY familiar with Git.***
 
 * Combining multiple versions of your project
-	```
-	git merge [branch]
-	```
+	```git merge [branch]```
 
 * Removes files from your repository
-	```
-	git rm -r [file name]
-	```
+	```git rm -r [file name]```
+	The "-r" means "recursively," which means it looks at both YOUR machine and the REMOTE repo for the file to delete.
+
+**
+If you follow good practice, you *should* never have any merge conflicts.
+**
 
 ![merge-conflicts-meme](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/merge-conflicts-meme.jpg)
-
-If you follow good practice, you *should* never have any merge conflicts.
 
 ---
 
