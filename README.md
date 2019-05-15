@@ -2,7 +2,7 @@
 
 My Git/Github/Markdown presentation for beginners.
 
-![bobcat-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/txst-aitp-logo.png)
+![aitp-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/txst-aitp-logo.png)
 
 ---
 
@@ -28,11 +28,21 @@ My Git/Github/Markdown presentation for beginners.
 
 ## Installation
 
-Got to:
+Go to:
 
 https://git-scm.com/downloads
 
-Download the version of git for your machine, open the wizard and select all of the default options. We will be using git through the Git Bash console only, it is highly recommended to never use anything with a fancy GUI because it never works properly and severely limits the functionality of git.
+1. Download the version of Git for your machine (Windows/Mac/Linux)
+
+2. Open the installation wizard and select all of the default options. 
+
+3. Congratulations, Git is now installed on your machine.
+
+**
+We will be using Git through the Bash console only, 
+it is highly recommended to never use the GUI, 
+as it severely limits the functionality of Git.
+**
 
 ---
 
@@ -44,19 +54,21 @@ Download the version of git for your machine, open the wizard and select all of 
 
 ## Create a repo
 
-Begin by creating an account with github here:  https://github.com/
+Create an account on GitHub here:  https://github.com/
 
 1. Go to your profile and select the "repositories" tab
 
-2. Select big green "new" button on the right
+2. Select the big, green, "new" button on the right\-hand side
 
-3. Give your repo a name, use "-" instead of spaces
+3. Give your repo a name, use "-" or "\_" instead of spaces, as per naming convention
 
 4. Select the checkbox "Initialize the repo with a README.md"
 
 5. Click "Create repository"
 
-#### Congratulations! You've created your first git repo.
+**
+Congratulations! You've just created your first Git repo!
+**
 
 ---
 
@@ -64,13 +76,13 @@ Begin by creating an account with github here:  https://github.com/
 
 Since this if your first time using Bash, the console will ask you for security information before it lets you make any pushes to a remote repo, so we need to enter a couple commands to tell the console who you are! For both of these, you will **use the email and username you used for your github account**, simply type in the first command and hit enter before typing in the next one. This is what they look like:
 
-```
+```Git
 git config --global user.email "yourEmail@whatever.com"
 ```
 
 ### and
 
-```
+```Git
 git config --global user.name "githubName"
 ```
 
@@ -142,7 +154,7 @@ howdy|aitp
 
 embed code,
 
-```javascript
+```JavaScript
 
 function thisIsJavascript(){
 
