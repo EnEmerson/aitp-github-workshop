@@ -82,17 +82,13 @@ simply type in the first command and hit enter before typing in the next one. Th
 git config --global user.email "yourEmail@whatever.com"
 ```
 
-**
-and
-**
+**and**
 
 ```Git
 git config --global user.name "GitHubName"
 ```
 
-***
-What does this stuff do?
-***
+***What does this stuff do?***
 
 Git is a version management language, it has pre\-defined keywords like most other scripting\/programming languages.
 The keyword ```git``` will precede almost *EVERY* command you make in the console. In this case, we are telling Git
@@ -107,30 +103,38 @@ only have to do this once, as Bash will remember who you are forever until you c
 
 * Grabs a repo for the **first time** and clones it onto your local machine:
 	```git clone [repository link]```
-	*Tip: "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"*
+	
+	Use "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"
 
 * Grabs the latest version of the project from the repo
 	```git pull```
 
 * Adding your recent changes to your "Staging Area"
 	```git add [file or directory]```
+	
 	*Tip: The '.' character means "everything," use this to add a bunch of changes at once.*
 
 * Commit the changes you made with a message
 	```git commit -m "put message text here"```
+	
 	**Etiquette: Commit messages should be in first person, imperative tense, all lowercase, and as specific as possible.**
+	
 	Example: "add new function for finding outlier data" instead of "i added a new function"
 
 * Push the changes from your local machine to the remote repo
 	```git push```
+	
 ---
 
 ## Other helpful things
 
 * .gitignore - a file that allows you to hide specific files or directories from your git repo
+
 * How to show at what part of the staging process you're currently at:
 	```git status```
+	
 * README - a file that is an easy to read "pre-HTML," usually used to document your projects.
+
 	The ".md" extension means "Markdown" which is a scripting language we will cover briefly in a bit.
 	Many sites support Markdown formatting, such as Reddit and GitHub. The Markdown gets converted into
 	HTML and displayed onto the page below where your project files are located.
@@ -146,11 +150,10 @@ only have to do this once, as Bash will remember who you are forever until you c
 
 * Removes files from your repository
 	```git rm -r [file name]```
+	
 	The "-r" means "recursively," which means it looks at both YOUR machine and the REMOTE repo for the file to delete.
 
-**
-If you follow good practice, you *should* never have any merge conflicts.
-**
+**If you follow good practice, you *should* never have any merge conflicts.**
 
 ![merge-conflicts-meme](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/merge-conflicts-meme.jpg)
 
