@@ -96,19 +96,23 @@ only have to do this once, as Bash will remember who you are forever until you c
 ## Making commits
 
 * Grabs a repo for the **first time** and clones it onto your local machine:
+
 	```git clone [repository link]```
 	
 	Use "Shift + Ins" to paste text into the Bash console instead of "Ctrl + V"
 
 * Grabs the latest version of the project from the repo
+
 	```git pull```
 
 * Adding your recent changes to your "Staging Area"
+
 	```git add [file or directory]```
 	
 	*Tip: The '.' character means "everything," use this to add a bunch of changes at once.*
 
 * Commit the changes you made with a message
+
 	```git commit -m "put message text here"```
 	
 	**Etiquette: Commit messages should be in first person, imperative tense, all lowercase, and as specific as possible.**
@@ -116,6 +120,7 @@ only have to do this once, as Bash will remember who you are forever until you c
 	Example: "add new function for finding outlier data" instead of "i added a new function"
 
 * Push the changes from your local machine to the remote repo
+
 	```git push```
 	
 ---
@@ -125,6 +130,7 @@ only have to do this once, as Bash will remember who you are forever until you c
 * .gitignore - a file that allows you to hide specific files or directories from your git repo
 
 * How to show at what part of the staging process you're currently at:
+
 	```git status```
 	
 * README - a file that is an easy to read "pre-HTML," usually used to document your projects.
@@ -140,9 +146,11 @@ only have to do this once, as Bash will remember who you are forever until you c
 ***This is a very scary section, don't do these unless you're VERY familiar with Git.***
 
 * Combining multiple versions of your project
+
 	```git merge [branch]```
 
 * Removes files from your repository
+
 	```git rm -r [file name]```
 	
 	The "-r" means "recursively," which means it looks at both YOUR machine and the REMOTE repo for the file to delete.
@@ -155,7 +163,7 @@ only have to do this once, as Bash will remember who you are forever until you c
 
 ## Markdown
 
-*A fantastic documentation of how markdown works is located [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), however, I will summarize it in this section.*
+A fantastic documentation of how markdown works is located [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), however, I will summarize it in this section.
 
 Markdown is essentially shorthand HTML, it is meant to be an easy to read\-and\-write 
 version of HTML that gets compiled by the website from the README.md (.md stands for markdown) 
