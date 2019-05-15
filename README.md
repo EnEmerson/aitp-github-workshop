@@ -36,11 +36,7 @@ https://git-scm.com/downloads
 
 3. Congratulations, Git is now installed on your machine.
 
-**
-We will be using Git through the Bash console only, 
-it is highly recommended to never use the GUI, 
-as it severely limits the functionality of Git.
-**
+**We will be using Git through the Bash console only, it is highly recommended to never use the GUI as it severely limits the functionality of Git.**
 
 ---
 
@@ -64,9 +60,7 @@ Create an account on GitHub here:  https://github.com/
 
 5. Click "Create repository"
 
-**
-Congratulations! You've just created your first Git repo!
-**
+**Congratulations! You've just created your first Git repo!**
 
 ---
 
@@ -82,7 +76,7 @@ simply type in the first command and hit enter before typing in the next one. Th
 git config --global user.email "yourEmail@whatever.com"
 ```
 
-**and**
+**and then**
 
 ```Git
 git config --global user.name "GitHubName"
@@ -161,39 +155,50 @@ only have to do this once, as Bash will remember who you are forever until you c
 
 ## Markdown
 
-Github has a fantastic documentation of how markdown works located [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), however I will summarize it in this section.
+*A fantastic documentation of how markdown works is located [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), however, I will summarize it in this section.*
 
-Markdown is shorthand for HTML, it is essentially and easy to read and write version of HTML script that is compiled by the website from the README.md (.md stands for markdown) into HTML script and then transferred onto the webpage by the browser.
+Markdown is essentially shorthand HTML, it is meant to be an easy to read\-and\-write 
+version of HTML that gets compiled by the website from the README.md (.md stands for markdown) 
+into HTML, which is then compiled into the webpage by the browser.
 
-It can do very cool things like you've already seen on this readme page so far, it can be used to:
+It can do very cool things, for example it can be used to:
 
-# make text into headers,
+* make text into 
 
-**bold,** *italicize,* ~~strike-through,~~ 
+	# headers
 
-create tables,
+* decorate text with
 
-like|this
-----|----
-howdy|aitp
+	**bold,** *italics,* or ~~strike-through~~
 
-embed code,
+* create tables
 
-```JavaScript
+	this|is|a|table
+	----|----|----|----
+	howdy|howdy|howdy|howdy
 
-function thisIsJavascript(){
+* embed code
 
- document.writeln("Hello World!");
-}
-```
+	```JavaScript
 
-embed images,
+	function thisIsJavascript(){
 
-![github-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/github-logo.png)
+	 document.writeln("Hello World!");
+	}
+	```
 
-[and embed links.](https://github.com/) <- this goes to https://github.com
+* embed images
 
-These are just a few examples and I highly recommend looking into the full documentation to read up fully on how markdown works. Good documentation of a project can make it seem like you know what you're doing.
+	![github-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/github-logo.png)
+
+* embed links
+
+	[click me!](https://github.com/) <- this takes you to https://github.com
+
+These are just a few examples and I highly recommend looking into the full documentation to read up on how markdown works. 
+Good documentation of a project can make it seem like you actually know what you're doing!
+
+---
 
 ![bobcat-logo](https://github.com/EnEmerson/aitp-github-workshop/blob/master/resources/bobcat-logo.png)
 
